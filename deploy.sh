@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 export KUBE_NAMESPACE=${KUBE_NAMESPACE:-${DRONE_DEPLOY_TO}}
-export ENVIRONMENT=${ENVIRONMENT:-dev}
 export KUBE_SERVER=${KUBE_SERVER_DEV}
 
 cd kd
