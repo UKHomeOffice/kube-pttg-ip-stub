@@ -88,7 +88,7 @@ spec:
           - name: http
             containerPort: 80
       - name: pttg-ip-stub
-        image: docker.digital.homeoffice.gov.uk/sponsorship/pttg-ip-stub:{{.VERSION}}
+        image: quay.io/ukhomeofficedigital/pttg-ip-stub:{{.VERSION}}
         env:
           - name: JAVA_OPTS
             value: "-Xms150m -Xmx250m"
